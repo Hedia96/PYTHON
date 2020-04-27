@@ -16,17 +16,9 @@ class Calculator():
     #(n and p shoould be non-negative )
     def Power_method(self,base,power):
         if base<0 or power<0:
-            raise Exception("n and p shoould be non-negative")
+            raise Exception("n and p should be non-negative")
         return int(pow(base,power))
         
-
-
-
-
-
-
-
-
 
 
 obj=Calculator()
